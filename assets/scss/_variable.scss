@@ -1,0 +1,68 @@
+// Variables
+// --------------------------  
+ 
+// Colors and backgrounds
+// --------------------------
+
+$darker:                      #000000!default;
+$lighter: 		              #ffffff!default;
+$content-fontcolor:           #7a7b7b;
+$button-bgcolor:              #2a2a2a;
+$lightfontcolor:              #7c7878;
+$dark-fontcolor:              #222222;
+$checkbox-fontcolor:          #b6b6b6;
+$hover-color:                 #004a70;
+$background-color:            #f7f8f9;
+$banner-backgroundcolor:      #e6f3fa;
+$banner-backgroundcolortwo:   #eef5e5;
+$banner-backgroundcolorthree: #f9ebe7;
+$user-backgroundcolor:        #f8f8f8;
+
+
+
+
+
+                
+
+//== Typography
+// --------------------------  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+$main-font: 'Roboto', sans-serif;
+
+
+$extralight: 100;
+$light:      300;
+$regular:    400;
+$medium:     500;
+$semibold:   600;
+$bold:       700;
+$extrabold:  800;
+
+
+$size-base:    16px !default; 
+
+$size-h1: ceil(($size-base * 2.00))  !default;   // ~32px
+$size-h2: ceil(($size-base * 1.75))  !default;   // ~28px
+$size-h3: ceil(($size-base * 1.50))  !default;   // ~24px
+$size-h4: ceil(($size-base * 1.375)) !default;   // ~22px
+$size-h5: ceil(($size-base * 1.25))  !default;   // ~20px
+$size-h6: ceil(($size-base * 1.125)) !default;   // ~18px
+
+$small-size: ceil(($size-base * 0.875)) !default;   // ~14px
+$big-size: ceil(($size-base * 3.00))  !default;   // ~48px
+
+
+//== Media queries breakpoints
+$desktop-only: "only screen and (min-width: 1200px)"; /*xl*/
+$tablet:"only screen and (min-width: 768px) and (max-width: 1199px)";
+$tablet-landscape:"only screen and (min-width: 992px) and (max-width: 1199px)";   /*lg*/
+$tablet-portrait:"only screen and (min-width: 768px) and (max-width: 1023px)"; /*md*/
+$mobile:"only screen and (max-width : 767px)";
+$mobile-landscape:"only screen and (min-width: 576px) and (max-width: 767px)"; /*sm*/
+$mobile-portrait:"only screen and (max-width : 575px)";  /*xs*/
+
+/* @media #{$tablet} {} */ 
+
+
+
+

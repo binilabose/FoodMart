@@ -1,0 +1,101 @@
+.logo-outer {
+    padding-top: 15px;
+
+    .items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $user-backgroundcolor;
+        border-radius: 10px;
+
+        .category {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+
+            a {
+                i {
+                    color: $lightfontcolor;
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        .products {
+            display: flex;
+            border: 0;
+            font-size: $small-size;
+        }
+
+        i {
+            color: $lightfontcolor;
+        }
+    }
+
+    .user-outer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5px;
+
+        .support {
+            p {
+                margin-bottom: 0;
+                color: $lightfontcolor ;
+                font-size: $small-size;
+                text-align: right;
+            }
+
+            a {
+                text-decoration: none;
+                color: $dark-fontcolor;
+            }
+        }
+
+        .user {
+            display: flex;
+
+            i {
+                padding: 15px;
+                background-color: $user-backgroundcolor;
+                border-radius: 50%;
+                margin: 2px;
+            }
+        }
+
+        .cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: $lightfontcolor ;
+                margin-bottom: 0;
+                padding-right: 5px;
+            }
+
+            i {
+                color: $lightfontcolor ;
+            }
+        }
+    }
+}
+
+.menu-outer {
+    display: block;
+    padding-top: 60px;
+    .menu {
+        display: flex;
+
+        ul {
+            padding-left: 0px;
+            li {
+                display: inline-block;
+                padding-right:15px ;
+                a {
+                    text-decoration: none;
+                    color: $lightfontcolor ;
+                }
+            }
+        }
+    }
+}
