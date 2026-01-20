@@ -6,7 +6,7 @@
 /*xs*/
 /* @media only screen and (min-width: 768px) and (max-width: 1199px) {} */
 .logo-outer {
-  padding-top: 15px;
+  padding: 15px 0px;
 }
 .logo-outer .items {
   display: flex;
@@ -72,10 +72,11 @@
 
 .menu-outer {
   display: block;
-  padding-top: 60px;
 }
 .menu-outer .menu {
   display: flex;
+  border-top: 0.5px solid #7c7878;
+  padding: 40px 0px;
 }
 .menu-outer .menu ul {
   padding-left: 0px;
@@ -93,4 +94,37 @@
   display: block;
   height: 710px;
   background-image: url(../images/background-pattern.jpg);
+}
+
+.footer-outer {
+  padding: 80px 0px;
+}
+.footer-outer .footer .footer-logo {
+  padding-right: 15px;
+}
+.footer-outer .footer .customer-service h5 {
+  padding-bottom: 25px;
+}
+.footer-outer .footer .customer-service ul {
+  padding-left: 0px;
+}
+.footer-outer .footer .customer-service ul li {
+  list-style-type: none;
+}
+.footer-outer .footer .customer-service ul li a {
+  text-decoration: none;
+  color: #b6b6b6;
+}
+.footer-outer .footer .subscribe-us h5 {
+  padding-bottom: 25px;
+}
+.footer-outer .footer .subscribe-us p {
+  color: #b6b6b6;
+}
+.footer-outer .footer .subscribe-us form {
+  display: flex;
+}
+.footer-outer .footer .subscribe-us form .quotes {
+  background-color: #000000;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+.footer-outer {
+    padding: 80px 0px;
+
+    .footer {
+        .footer-logo {
+             padding-right: 15px;
+           
+        }
+
+        .customer-service {
+            h5 {
+                padding-bottom: 25px;
+            }
+
+            ul {
+                padding-left: 0px;
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        text-decoration: none;
+                        color: $checkbox-fontcolor;
+                    }
+                }
+            }
+        }
+
+        .subscribe-us {
+            h5 {
+                padding-bottom: 25px;
+            }
+
+            p {
+                color: $checkbox-fontcolor;
+            }
+
+            form {
+                display: flex;
+
+                .quotes {
+                    background-color: $darker;
+                    color: $lighter;
+                }
+
+            }
+        }
+    }
+
+}
