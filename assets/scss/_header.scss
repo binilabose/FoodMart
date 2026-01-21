@@ -13,6 +13,11 @@
             justify-content: space-between;
             padding-top: 10px;
 
+            p {
+                font-size: $size-h6;
+                color: $lightfontcolor ;
+            }
+
             a {
                 i {
                     color: $lightfontcolor;
@@ -27,8 +32,12 @@
             font-size: $small-size;
         }
 
-        i {
-            color: $lightfontcolor;
+        button {
+            border: none;
+            i {
+                color: $lightfontcolor;
+                font-size:  $size-h6;
+            }
         }
     }
 
@@ -99,6 +108,7 @@
                 a {
                     text-decoration: none;
                     color: $lightfontcolor ;
+                    font-size: $size-h6;
                 }
             }
         }

@@ -20,6 +20,10 @@
   justify-content: space-between;
   padding-top: 10px;
 }
+.logo-outer .items .category p {
+  font-size: 18px;
+  color: #7c7878;
+}
 .logo-outer .items .category a i {
   color: #7c7878;
   padding-left: 15px;
@@ -29,8 +33,12 @@
   border: 0;
   font-size: 14px;
 }
-.logo-outer .items i {
+.logo-outer .items button {
+  border: none;
+}
+.logo-outer .items button i {
   color: #7c7878;
+  font-size: 18px;
 }
 .logo-outer .user-outer {
   display: flex;
@@ -88,6 +96,7 @@
 .menu-outer .menu ul li a {
   text-decoration: none;
   color: #7c7878;
+  font-size: 18px;
 }
 
 .banner-outer {
