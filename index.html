@@ -24,8 +24,12 @@
                         <div class="col-5">
                             <div class="items">
                                 <div class="category">
-                                    <p>All categories</p>
-                                    <a href="#"> <i class="fa-solid fa-angle-down"></i></a>
+                                    <select name="category" id="category">
+                                        <option value="all categories">all categories</option>
+                                        <option value="groceries">groceries</option>
+                                        <option value="drinks">drinks</option>
+                                        <option value="chocolates">chocolates</option>
+                                    </select>
                                 </div>
                                 <div class="products">
                                     <input type="text" placeholder="search for more than 20000 products">
@@ -56,19 +60,42 @@
 
             <div class="menu-outer">
                 <div class="container">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Shop by departments</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Accesoories</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Brand</a></li>
-                            <li><a href="#">Sale</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
+                    <div class="row">
+                        <div class="menu">
+                            <div class="shop">
+                                <select name="department" id="department">
+                                    <option value="all categories">shop by department</option>
+                                    <option value="groceries">groceries</option>
+                                    <option value="drinks">drinks</option>
+                                    <option value="chocolates">chocolates</option>
+                                </select>
+                            </div>
+                            <ul>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Kids</a></li>
+                                <li><a href="#">Accesoories</a></li>
+                                <li><a href="#">Pages</a>
+                                    <select name="pages" id="pages">
+                                        <option value="pages">pages</option>
+                                        <option value="about">About US</option>
+                                        <option value="shop">shop</option>
+                                        <option value="products">products</option>
+                                        <option value="checkout">checkout</option>
+                                        <option value="blog">blog</option>
+                                        <option value="contact">contact</option>
+                                        <option value="thankyou">thank you</option>
+                                        <option value="contact">contact</option>
+                                        <option value="contact">myaccount</option>
+                                    </select>
+                                </li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Sale</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -79,27 +106,179 @@
                 <div class="banner">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-7">
                                 <div class="left-banner">
-                                    <div class="col-7">
-                                        <h5></h5>
-                                        <h2></h2>
-                                        <p>Lorem Ipsum has been the industry's standard galley of type and scrambled it to make a type specimen book.</p>
-                                        <a href="#">Shop Now</a>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="text-outer">
+                                                <h5>100% Natural</h5>
+                                                <h1>Fresh Smoothie <br>& Summer Juice</h1>
+                                                <p>Lorem Ipsum has been the industry's standard galley to make a type
+                                                    specimen book.</p>
+                                                <a href="#">Shop Now</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="banner-image">
+                                                <img src="./assets/images/product-thumb-1.png" alt="">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-5"></div>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="right-banner"></div>
+                            <div class="col-5">
+                                <div class="right-bannertop">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="text-outer">
+                                                <h5>20% Off</h5>
+                                                <p>_____ SALE</p>
+                                                <h2>fruits & vegetables</h2>
+                                                <a href="#">Shop collection</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="banner-image">
+                                                <img src="./assets/images/ad-image-1.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-bannerbottom">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="text-outer">
+                                                <h5>15% Off</h5>
+                                                <p>_____ SALE</p>
+                                                <h2>Bakedproducts</h2>
+                                                <a href="#">Shop collection</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="banner-image">
+                                                <img src="./assets/images/ad-image-2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
+            </div>
+        </section>
+        <section class="trending products">
+            <div class="container">
+                <div class="proucts-outer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-bananas.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-biscuits.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-cucumber.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-milk.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-bananas.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="proucts-outer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-biscuits.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-cucumber.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-milk.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products">
+                                <div class="product-image">
+                                    <img src="./assets/images/thumb-bananas.png" alt="">
+                                </div>
+                                <h6>Sunstar Freshmelon Juice</h6>
+                                <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                                <h4>$18.00</h4>
+                            </div>
+                        </div>
+                        <div class="products">
+                            <div class="product-image">
+                                <img src="./assets/images/thumb-biscuits.png" alt="">
+                            </div>
+                            <h6>Sunstar Freshmelon Juice</h6>
+                            <p>1 UNIT <i class="fa-regular fa-star"></i> <span>4.5</span></p>
+                            <h4>$18.00</h4>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-
         </section>
     </main>
     <footer>

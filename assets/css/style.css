@@ -104,6 +104,42 @@
   height: 710px;
   background-image: url(../images/background-pattern.jpg);
 }
+.banner-outer .left-banner {
+  background-color: #e6f3fa;
+  border-radius: 10px;
+  padding: 50px 0px;
+}
+.banner-outer .left-banner .text-outer {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.banner-outer .left-banner .text-outer h5 {
+  color: #fcc952;
+}
+.banner-outer .left-banner .text-outer p {
+  color: #7c7878;
+  padding-bottom: 40px;
+}
+.banner-outer .left-banner .text-outer a {
+  text-decoration: none;
+  color: #7c7878;
+  border: 1px solid #7c7878;
+  padding: 15px;
+  border-radius: 3px;
+}
+.banner-outer .left-banner .banner-image img {
+  width: 300px;
+  height: 500px;
+}
+.banner-outer .right-bannertop {
+  background-color: #eef5e5;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.banner-outer .right-bannerbottom {
+  background-color: #f9ebe7;
+  border-radius: 10px;
+}
 
 .footer-outer {
   padding: 80px 0px;
