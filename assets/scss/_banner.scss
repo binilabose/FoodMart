@@ -1,43 +1,107 @@
-.banner-outer{
+.banner-outer {
     display: block;
     height: 710px;
     background-image: url(../images/background-pattern.jpg);
-    .left-banner{
-        background-color: $banner-backgroundcolor;
-        border-radius: 10px;
-        padding: 50px 0px;
-        .text-outer{
-            padding-left: 50px;
-            padding-top: 50px;
-            h5{
-                color: $banner-fontcolor;
+
+    .banner {
+
+        .left-banner {
+            background-color: $banner-backgroundcolor;
+            border-radius: 10px;
+            padding: 50px 0px;
+            height: 675px;
+
+            .text-outer {
+                padding-left: 50px;
+                padding-top: 50px;
+
+                h5 {
+                    color: $banner-fontcolor;
+                }
+
+                p {
+                    color: $lightfontcolor;
+                    padding-bottom: 40px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $lightfontcolor;
+                    border: 1px solid $lightfontcolor;
+                    padding: 15px;
+                    border-radius: 3px;
+                }
             }
-            p{
-                 color: $lightfontcolor;
-                 padding-bottom: 40px;
-            }
-            a{
-                text-decoration: none;
-                color: $lightfontcolor;
-                border: 1px solid $lightfontcolor;
-                padding: 15px;
-                border-radius: 3px;
+
+            .banner-image {
+                img {
+                    width: 300px;
+                    height: 500px;
+                }
             }
         }
-        .banner-image{
-            img{
-                width: 300px;
-                height: 500px;
+
+        .right-bannertop {
+            background-color: $banner-backgroundcolortwo;
+            border-radius: 10px;
+            margin-bottom: 35px;
+            height: 320px;
+
+            .text-outer {
+                padding-left: 30px;
+                padding-top: 50px;
+
+
+                p {
+                    color: $lightfontcolor;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $lightfontcolor;
+
+                }
+
+
+            }
+
+            .banner-image {
+                img {
+                    width: 280px;
+                    height: 280px;
+                }
             }
         }
-    }
-    .right-bannertop{
-        background-color: $banner-backgroundcolortwo;
-         border-radius: 10px;
-         margin-bottom: 30px;
-    }
-    .right-bannerbottom{
-        background-color: $banner-backgroundcolorthree;
-         border-radius: 10px;
+
+        .right-bannerbottom {
+            background-color: $banner-backgroundcolorthree;
+            border-radius: 10px;
+            height: 320px;
+
+            .text-outer {
+                padding-left: 30px;
+                padding-top: 50px;
+
+                p {
+                    color: $lightfontcolor;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $lightfontcolor;
+                }
+
+
+            }
+
+            .banner-image {
+                img {
+                    width: 270px;
+                    height: 100%;
+                }
+            }
+        }
     }
 }

@@ -9,9 +9,9 @@
         border-radius: 10px;
 
         .category {
-            display: flex;
-            justify-content: space-between;
-            padding-top: 10px;
+            border: none;
+            outline: none;
+            color: $lightfontcolor ;
 
             p {
                 font-size: $size-h6;
@@ -34,9 +34,10 @@
 
         button {
             border: none;
+
             i {
                 color: $lightfontcolor;
-                font-size:  $size-h6;
+                font-size: $size-h6;
             }
         }
     }

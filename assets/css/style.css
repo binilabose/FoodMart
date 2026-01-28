@@ -16,9 +16,9 @@
   border-radius: 10px;
 }
 .logo-outer .items .category {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
+  border: none;
+  outline: none;
+  color: #7c7878;
 }
 .logo-outer .items .category p {
   font-size: 18px;
@@ -104,41 +104,79 @@
   height: 710px;
   background-image: url(../images/background-pattern.jpg);
 }
-.banner-outer .left-banner {
+.banner-outer .banner .left-banner {
   background-color: #e6f3fa;
   border-radius: 10px;
   padding: 50px 0px;
+  height: 675px;
 }
-.banner-outer .left-banner .text-outer {
+.banner-outer .banner .left-banner .text-outer {
   padding-left: 50px;
   padding-top: 50px;
 }
-.banner-outer .left-banner .text-outer h5 {
+.banner-outer .banner .left-banner .text-outer h5 {
   color: #fcc952;
 }
-.banner-outer .left-banner .text-outer p {
+.banner-outer .banner .left-banner .text-outer p {
   color: #7c7878;
   padding-bottom: 40px;
 }
-.banner-outer .left-banner .text-outer a {
+.banner-outer .banner .left-banner .text-outer a {
   text-decoration: none;
   color: #7c7878;
   border: 1px solid #7c7878;
   padding: 15px;
   border-radius: 3px;
 }
-.banner-outer .left-banner .banner-image img {
+.banner-outer .banner .left-banner .banner-image img {
   width: 300px;
   height: 500px;
 }
-.banner-outer .right-bannertop {
+.banner-outer .banner .right-bannertop {
   background-color: #eef5e5;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  height: 320px;
 }
-.banner-outer .right-bannerbottom {
+.banner-outer .banner .right-bannertop .text-outer {
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.banner-outer .banner .right-bannertop .text-outer p {
+  color: #7c7878;
+}
+.banner-outer .banner .right-bannertop .text-outer a {
+  text-decoration: none;
+  color: #7c7878;
+}
+.banner-outer .banner .right-bannertop .banner-image img {
+  width: 280px;
+  height: 280px;
+}
+.banner-outer .banner .right-bannerbottom {
   background-color: #f9ebe7;
   border-radius: 10px;
+  height: 320px;
+}
+.banner-outer .banner .right-bannerbottom .text-outer {
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.banner-outer .banner .right-bannerbottom .text-outer p {
+  color: #7c7878;
+}
+.banner-outer .banner .right-bannerbottom .text-outer a {
+  text-decoration: none;
+  color: #7c7878;
+}
+.banner-outer .banner .right-bannerbottom .banner-image img {
+  width: 270px;
+  height: 100%;
+}
+
+.trending-products .proucts-outer .products .product-image img {
+  width: 200px;
+  height: 200px;
 }
 
 .footer-outer {
