@@ -1,12 +1,28 @@
-.trending-products{
+.trending-products {
+    display: block;
 
-    .proucts-outer{
-        .products{
-            .product-image{
-                img{
+    .proucts-outer {
+        .products {
+            .product-image {
+                img {
                     width: 200px;
                     height: 200px;
+                    object-fit: cover;
                 }
+            }
+        }
+    }
+}
+
+.chocolate {
+    .muffins {
+        .left-text {}
+
+        .right-image {
+            img {
+                width: 290px;
+                height: 240px;
+                object-fit: cover;
             }
         }
     }

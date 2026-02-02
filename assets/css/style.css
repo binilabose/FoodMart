@@ -174,9 +174,21 @@
   height: 100%;
 }
 
+.trending-products {
+  display: block;
+}
 .trending-products .proucts-outer .products .product-image img {
   width: 200px;
   height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.chocolate .muffins .right-image img {
+  width: 290px;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer-outer {
