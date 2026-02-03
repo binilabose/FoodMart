@@ -174,8 +174,63 @@
   height: 100%;
 }
 
+.category-outer {
+  display: block;
+  padding: 60px 0px;
+}
+.category-outer .category-text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 75px;
+}
+.category-outer .category-text p {
+  color: #b6b6b6;
+}
+.category-outer .categoryimage-outer .category-image {
+  text-align: center;
+  border: 1px solid #f8f8f8;
+  padding: 50px 25px;
+  box-shadow: 3px;
+}
+.category-outer .categoryimage-outer .category-image i {
+  color: #fcc952;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+.category-outer .categoryimage-outer .category-image h6 {
+  font-style: bold;
+}
+
 .trending-products {
   display: block;
+  padding-top: 150px;
+  background-color: #fdfdfd;
+}
+.trending-products .products-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f8f8f8;
+}
+.trending-products .products-top ul li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.trending-products .products-top ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+.trending-products .proucts-outer {
+  padding-top: 50px;
+}
+.trending-products .proucts-outer .products {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.trending-products .proucts-outer .products .product-image {
+  background-color: #f8f8f8;
+  border-radius: 10px;
 }
 .trending-products .proucts-outer .products .product-image img {
   width: 200px;
@@ -183,7 +238,16 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-
+.trending-products .proucts-outer .products h6 {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.trending-products .proucts-outer .products p i {
+  color: #fcc952;
+}
+.chocolate {
+  padding: 125px 0px;
+}
 .chocolate .muffins .right-image img {
   width: 290px;
   height: 240px;

@@ -1,20 +1,104 @@
+.category-outer {
+    display: block;
+    padding: 60px 0px;
+
+    .category-text {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 75px;
+        h2{
+
+        }
+        p{
+            color: $checkbox-fontcolor;
+        }
+    }
+
+    .categoryimage-outer {
+        .category-image {
+            text-align: center;
+            border: 1px solid $user-backgroundcolor;
+            padding: 50px 25px;
+            box-shadow: 3px;
+
+            i {
+                color: $banner-fontcolor;
+                padding-bottom: 20px;
+                font-size: $size-h4;
+
+            }
+
+            h6 {
+                font-style: bold;
+            }
+        }
+    }
+}
+
 .trending-products {
     display: block;
+    padding-top: 150px;
+    background-color: #fdfdfd;
+
+    .products-top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        border-bottom: 1px solid $user-backgroundcolor;
+
+        h3 {}
+
+        ul {
+            li {
+                display: inline-block;
+                padding: 0px 15px;
+
+                a {
+                    text-decoration: none;
+                    color: $darker;
+                    font-size: $size-h6;
+                }
+            }
+        }
+    }
 
     .proucts-outer {
+        padding-top: 50px;
+
         .products {
+            background-color: $lighter;
+            padding: 15px;
+
             .product-image {
+                background-color: $user-backgroundcolor;
+                border-radius: 10px;
+
                 img {
                     width: 200px;
                     height: 200px;
                     object-fit: cover;
                 }
             }
+
+            h6 {
+                padding-top: 20px;
+                font-size: $size-h6;
+            }
+
+            p {
+                i {
+                    color: $banner-fontcolor;
+                }
+            }
+
+            h4 {}
         }
     }
 }
 
 .chocolate {
+    padding: 125px 0px;
+
     .muffins {
         .left-text {}
 
